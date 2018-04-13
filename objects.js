@@ -3,6 +3,5 @@ var playlist = {
 'My Bloody Valentine': 'Sometimes'
 }
 function updatePlayList(playlist, artistName, songTitle){
-  playlist['Phil Ochs'] = "Here's to the State of Mississippi";
-  return playlist;
+  return playlist['Phil Ochs'] = "Here's to the State of Mississippi";
 }
