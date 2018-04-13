@@ -3,6 +3,6 @@ var playlist = {
   'Pentatonix': 'Mary Did You Know?',
   'Alan Jackson': 'Little Bity'
 }
-function updatePlayList(obj, string, title){
+function updatePlayList(playlist, artistName, songTitle){
   return Object.assign({}, playlist, { 'Mozart': 'Moonlight Sonata' })
 }
